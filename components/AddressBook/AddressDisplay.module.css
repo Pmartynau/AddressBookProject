@@ -1,0 +1,31 @@
+.addNewAddress {
+  color: #0060a9;
+  cursor: pointer;
+  padding-top: 15px;
+
+  /* text-decoration: underline; */
+}
+
+.cardStyles {
+  
+  width: 260px;
+  height: 260px;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardCentering {
+  margin-top:80px;
+  /* justify-content: center; */
+  
+ 
+  
+}
+
+.iconstyling {
+ 
+  font-size: 2rem;
+  margin-left:50px;
+  justify-content: center;
+  align-items: center;
+}

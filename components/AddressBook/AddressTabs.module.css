@@ -1,0 +1,18 @@
+.tabswrapper {
+  border-bottom: 0;
+  width: 75%;
+}
+
+.tabswrapper a {
+  min-width: 142px;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 0 !important;
+  border: 1px solid #3071a9 !important;
+  text-align: center;
+}
+
+.tabsizing {
+  padding-left: 0;
+  padding-right: 0;
+}

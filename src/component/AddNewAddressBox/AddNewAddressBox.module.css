@@ -1,0 +1,21 @@
+.addNewAddressBox {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 235.25px;
+  border: 1.25px solid #ccc;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 667px) {
+  .addNewAddressBox {
+    height: 114px;
+  }
+}
+
+.flexOrder {
+  order: -2;
+}
+.iconstyling {
+  font-size: 2rem;
+}

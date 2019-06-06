@@ -1,0 +1,48 @@
+.modalheader {
+  color: #fff;
+  background-color: #3071a9;
+  padding: 10px 15px;
+  padding: 0.625rem 0.9375rem;
+  font-size: 400px;
+}
+
+.container-modal {
+  font-size: 200px;
+}
+.modalheader {
+  margin: 0;
+}
+.backdropStyle {
+  color: black;
+}
+
+.close {
+  background-color: white;
+}
+
+.cancelbutton {
+  border-radius: 0;
+  color: #0060a9;
+  background-color: #eaeaea;
+  border: none;
+  width: 100%;
+}
+
+.savebutton {
+  border-radius: 0;
+  background-color: #3071a9;
+  color: #fff;
+  width: 100%;
+}
+
+.footerText {
+  color: #333;
+  width: 100%;
+}
+.addNewAddress {
+  margin-top: 25px;
+  color: #0060a9;
+  cursor: pointer;
+  /* text-decoration: underline; */
+}
+

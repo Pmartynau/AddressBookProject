@@ -1,0 +1,49 @@
+{
+  "contact": [
+    {
+      "lastName": "Medley",
+      "primary": "true",
+      "phone1": "3605634123",
+      "addressLine": ["123 Developer Address", "Apt. 100", ""],
+      "city": "SEATTLE",
+      "zipCode": "98027-9675",
+      "nickName": "Kurt-21699502",
+      "addressType": "Shipping",
+      "addressId": "335894002",
+      "state": "WA",
+      "email1": "k12341580929803452538924@test.com",
+      "country": "US",
+      "attributes": [
+        {
+          "value": "daa5f892-63cf-4efa-a3e7-2d8ced1c3629",
+          "key": "addressField1"
+        }
+      ],
+      "firstName": "Kurt"
+    },
+    {
+      "lastName": "Martynau",
+      "primary": "true",
+      "phone1": "3605634123",
+      "addressLine": ["123 Developer Address", "Apt. 100", ""],
+      "city": "SEATTLE",
+      "zipCode": "98027-9675",
+      "nickName": "Pavel-21699502",
+      "addressType": "Shipping",
+      "addressId": "335894002",
+      "state": "WA",
+      "email1": "p@test.com",
+      "country": "US",
+      "attributes": [
+        {
+          "value": "daa5f892-63cf-4efa-a3e7-2d8ced1c3629",
+          "key": "addressField1"
+        }
+      ],
+      "firstName": "Pavel"
+    }
+  ],
+  "userId": "464794504",
+  "resourceId": "https://wcs.costco.com:443/wcs/resources/store/10301/person/@self/contact?addressType=shipping&responseFormat=json",
+  "resourceName": "person"
+}

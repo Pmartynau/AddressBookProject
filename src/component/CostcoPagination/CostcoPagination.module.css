@@ -1,0 +1,52 @@
+.costcoPagination div {
+  margin-left: 400px;
+  margin-right: 0;
+  width: 100%;
+}
+
+.button-style {
+  color: #3071a9 !important;
+  background-color: white !important;
+  border: 0 !important;
+}
+
+.button-style-active {
+  background-color: #3071a9 !important;
+  color: white !important;
+  border: 0 !important;
+}
+.pagination-style a {
+  border: 0;
+}
+
+.pagination-style-active span,
+.pagination-style-active a:hover,
+.pagination-style a:hover {
+  background: transparent !important;
+  border: 0 !important;
+}
+
+.previous-styling a,
+.previous-styling button,
+.previous-styling button:hover,
+.previous-styling a:hover {
+  background-color: white;
+  color: #3071a9;
+  border: 0;
+}
+
+.next-styling a,
+.next-styling button,
+.next-styling button:hover,
+.next-styling a:hover {
+  background-color: white;
+  color: #3071a9;
+  border: 0 !important;
+}
+
+.backtotop {
+  border: 0 !important;
+  box-shadow: 0px;
+  background: 0%;
+  margin-left: 55px;
+}

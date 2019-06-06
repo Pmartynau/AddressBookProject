@@ -1,0 +1,72 @@
+{
+  "name": "react-costco-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.17",
+    "@fortawesome/free-brands-svg-icons": "^5.8.1",
+    "@fortawesome/free-solid-svg-icons": "^5.8.1",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "axios": "^0.15.0",
+    "bootstrap": "^4.3.1",
+    "classnames": "^2.2.6",
+    "formik": "^1.5.1",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.5",
+    "node-sass": "^4.11.0",
+    "prettier": "^1.16.4",
+    "react": "^16.8.5",
+    "react-app-polyfill": "^0.2.2",
+    "react-axios": "^2.0.3",
+    "react-back-to-top-button": "0.0.14",
+    "react-bootstrap": "^1.0.0-beta.6",
+    "react-dom": "^16.8.6",
+    "react-icons": "^3.7.0",
+    "react-redux": "^7.0.2",
+    "react-scripts": "2.1.8",
+    "react-styleguidist": "^9.0.5",
+    "react-text-mask": "^5.4.3",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "source-map-explorer": "^1.8.0",
+    "yup": "^0.27.0"
+  },
+  "scripts": {
+    "mock-service": "node ./src/mock-service/server.js",
+    "mock-db": "node ./src/mock-service/db-seeder.js",
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build",
+    "web": "react-scripts start",
+    "rest": "json-server --port 3050 db.json"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "json-server": "^0.14.2"
+  }
+}

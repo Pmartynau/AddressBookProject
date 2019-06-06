@@ -1,0 +1,44 @@
+.addNewAddress:hover {
+  border: 1.25px solid #ccc;
+  height: 267px;
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  width: 234.5px;
+  margin-top: 25px;
+  color: #0060a9;
+  cursor: pointer;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.newAddressFormatting  {   
+   /* display: flex;  */
+  /* flex-direction: row; */
+   /* justify-content: center;  */
+   /* align-items: center;  */
+
+}
+
+.cardFormatting {
+  
+}
+
+
+/*Sorting CSS modifications */
+.sortheader {
+  padding: 8px;
+  margin-left: 10px;
+}
+.dropdownsort {
+  width: 75%;
+}
+
+.sortfooter {
+
+font-size: 16px;
+margin-left: 71%;;
+}

@@ -1,0 +1,36 @@
+.headertext {
+  color: #fff;
+  background-color: hsl(208, 56%, 43%);
+  padding-left: 15px;
+}
+
+.notheadertext {
+  background-color: white;
+  color: #3071a9;
+  padding-left: 15px;
+}
+
+.footertext {
+  text-align: right;
+  background: transparent;
+  border: 0;
+}
+
+.cardwrapper {
+padding: 15px;
+border-radius: 0;
+margin-left: 0 !important;
+margin-right: 0 !important;
+}
+
+.cardbody{
+ padding:15px;
+ 
+
+}
+
+.cardtext {
+ text-align: left;
+ 
+}
+

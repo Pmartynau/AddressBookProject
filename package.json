@@ -13,7 +13,7 @@
     "formik": "^1.5.1",
     "husky": "^1.3.1",
     "lint-staged": "^8.1.5",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "prettier": "^1.16.4",
     "react": "^16.8.5",
     "react-app-polyfill": "^0.2.2",
